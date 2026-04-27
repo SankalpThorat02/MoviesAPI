@@ -1,0 +1,22 @@
+### 1.Get all movies
+GET http://localhost:8080/api/movies
+
+### 2.Create a new Movie
+POST http://localhost:8080/api/movies
+Content-Type: application/json
+
+{
+  "title": "Inception",
+  "genre": "Sci-Fi",
+  "rating": 9.5
+}
+
+### 3.Testing Business logic
+POST http://localhost:8080/api/movies
+Content-Type: application/json
+
+{
+  "title": "Inception",
+  "genre": "Sci-Fi",
+  "rating": 11
+}
